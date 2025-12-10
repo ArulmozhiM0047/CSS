@@ -1,0 +1,12 @@
+h1{
+    background-color: aquamarine;
+}
+h2{
+    background-color: greenyellow;
+
+}
+p{
+    border: 30px dashed blue;
+    font-size: 40px;
+    text-align: justify;
+}
