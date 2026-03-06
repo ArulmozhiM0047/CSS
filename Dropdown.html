@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+       #menuitems a{
+        text-decoration: none;
+        background-color: ghostwhite;
+        display: block;
+        box-shadow: 2px 2px 5px;
+
+       }
+       #menu{
+        display: inline-block;
+       }
+       #menu #menuitems{
+        display: none;
+       }
+       #menu:hover #menuitems {
+        display: block;
+       }
+       #menu:hover button{
+        background-color: aquamarine;
+       }
+       #menuitems a:hover{
+        background-color: antiquewhite;
+       }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <button>details</button>
+    <div id="menuitems">
+        <a href="#">VEG</a>
+        <a href="#">non veg</a>
+        <a href="#">pure</a>
+        <a href="#">vegitriian</a>
+    </div>
+    </div>
+</body>
+</html>
